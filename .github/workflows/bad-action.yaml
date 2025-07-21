@@ -16,8 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set yp Python
-        uses: setup/python@v2
+      - uses: setup-python@v2
         with:
           python-version: '3.9'
 
